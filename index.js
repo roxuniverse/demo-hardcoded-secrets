@@ -8,4 +8,4 @@ app.use('/api', usersRoute);
 app.use('/api', paymentRoute);
 
 const PORT = 3000;
-app.listen(PORT, () => console.log('Server running on port ${PORT}'));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
